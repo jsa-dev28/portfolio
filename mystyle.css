@@ -5,11 +5,11 @@ body {
 h1 {
   color: white;
   text-align: center;
-  font-family: verdana;
+  font-family: Open Sans;
 }
 
 p {
-  font-family: verdana;
+  font-family: Open Sans;
   text-align: center;
   color: white;
   font-size: 20px;
@@ -17,12 +17,17 @@ p {
 
 a {
   color: white;
-  text-align: center;
-  font-family: verdana;
+  font-family: Open Sans;
+  font-size: 16px;
 }
 
 h2 {
   color: white;
   text-align: center;
-  font-family: verdana;
+  font-family: Open Sans;
+}
+
+ul {
+  text-align: center;
+  list-style-position: inside;
 }
