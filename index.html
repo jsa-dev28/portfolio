@@ -3,6 +3,7 @@
 <head>
 <title>Portfolio</title>
 <link rel="stylesheet" href="mystyle.css">
+<link rel="icon" href="juanjo.png" type="image/png">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -57,7 +58,7 @@
       const toggleBtn = document.getElementById('theme-toggle');
       const html = document.documentElement;
 
-      const savedTheme = localStorage.getItem('theme') || 
+      const savedTheme = localStorage.getItem('theme') ||
         (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
       html.setAttribute('data-theme', savedTheme);
       toggleBtn.textContent = savedTheme === 'dark' ? '🌙' : '☀️';
