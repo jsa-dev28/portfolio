@@ -97,6 +97,9 @@ ul {
 }
 
 .social-links a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: var(--social-icon-color);
   text-decoration: none;
   font-size: 24px;
@@ -106,4 +109,26 @@ ul {
 .social-links a:hover {
   transform: translateY(-2px);
   opacity: 0.8;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 25px;
+  padding: 20px;
+}
+
+.project-card {
+  text-align: center;
+}
+
+.project-card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+@media (max-width: 700px) {
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
 }
