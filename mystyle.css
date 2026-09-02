@@ -150,3 +150,89 @@ ul {
 .cv-button:hover {
   opacity: 0.85;
 }
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 40px;
+  background-color: var(--bg-color);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  box-sizing: border-box;
+  z-index: 1000;
+  transition: background-color 0.3s ease;
+}
+
+.nav-name {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--text-color);
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.nav-links a {
+  font-family: "Open Sans", sans-serif;
+  font-size: 15px;
+  color: var(--text-color);
+  text-decoration: none;
+  opacity: 0.75;
+  transition: opacity 0.2s ease;
+}
+
+.nav-links a:hover {
+  opacity: 1;
+}
+
+.icon-btn {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  color: var(--text-color);
+  padding: 0;
+}
+
+.nav-cv-btn {
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 6px;
+  padding: 6px 16px;
+  opacity: 1 !important;
+}
+
+.nav-cv-btn:hover {
+  background-color: rgba(255, 255, 255, 0.08);
+}
+
+.container-fluid {
+  padding-top: 90px;
+}
+
+@media (max-width: 600px) {
+  .navbar {
+    flex-direction: column;
+    gap: 12px;
+    padding: 14px 20px;
+  }
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 16px;
+  }
+  .container-fluid {
+    padding-top: 140px;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
+}

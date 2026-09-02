@@ -10,15 +10,24 @@
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
 </head>
 <body>
-    <button id="theme-toggle" aria-label="Cambiar tema">🌙</button>
+    <nav class="navbar">
+        <div class="nav-name">Juanjo Shlamovitz</div>
+        <div class="nav-links">
+            <button id="theme-toggle" class="icon-btn" aria-label="Cambiar tema">🌙</button>
+            <a href="#Descripción">Descripción</a>
+            <a href="#Proyectos">Proyectos</a>
+            <a href="#Contactame">Contacto</a>
+            <a href="CV_Juanjo_Shlamovitz.pdf" target="_blank" download class="nav-cv-btn">CV</a>
+        </div>
+    </nav>
     <div class="container-fluid">
         <div class="row">
-            <div class="col-12">
+            <div class="col-12" id="Descripción">
                 <h1>Juanjo Shlamovitz</h1>
                 <p>Alumno de 4to año del Instituto Industrial Luis A. Huergo, estoy trabajando con Python, donde trabajé con estructuras como árboles binarios, colas de prioridad, hashmaps y proyectos orientados a objetos. También trabajo con MySQL Workbench, manejando consultas, subconsultas, vistas, procedimientos almacenados y funciones. Me interesa seguir creciendo como desarrollador, resolviendo problemas con criterio y prolijidad.</p>
-                <a href="CV_Juanjo_Shlamovitz.pdf" download class="cv-button">Descargar CV</a>
+                <a href="CV_Juanjo_Shlamovitz.pdf" target="_blank" download class="cv-button">Descargar CV</a>
                 <h2>Algunos de mis proyectos</h2>
-                <div class="projects-grid">
+                <div class="projects-grid" id="Proyectos">
                     <div class="project-card">
                         <img src="grid.png" alt="Grid">
                         <a href="https://github.com/Elpapu1114/Minigames/blob/main/grid.py" target="_blank">Proyecto 1 (Grid) -- Ver en GitHub</a>
@@ -35,7 +44,7 @@
                         <p>Minijuego de conocimiento de fútbol, en el cual se debe completar una formación vacía de 11 jugadores acorde a los equipos seleccionados.</p>
                     </div>
                 </div>
-                <section id="contact">
+                <section id="Contactame">
                     <h2>Contactame</h2>
                     <div class="social-links">
                         <a href="https://www.instagram.com/jea_028/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
