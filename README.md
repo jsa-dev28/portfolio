@@ -1,1 +1,1 @@
-# portfolio
+# Mi proyecto consiste en un portfolio web que funcione como una carta de presentación profesional de mí como desarrollador. Incluye una breve descripción mía con una función para descargar mi CV, 3 ejemplos de proyectos que hice y una sección para que me contacten, incluyendo un formulario y links a github e instagram. Para poder hacer este proyecto tuve que investigar sobre transiciones, efectos hover, flexbox, grid, y variables de CSS, entre otros.
